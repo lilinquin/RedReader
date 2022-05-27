@@ -1,0 +1,28 @@
+diff --git a/src/main/java/org/quantumbadger/redreader/common/PrefsUtility.java b/src/main/java/org/quantumbadger/redreader/common/PrefsUtility.java
+index 5376ee5..22708cb 100644
+--- a/src/main/java/org/quantumbadger/redreader/common/PrefsUtility.java
++++ b/src/main/java/org/quantumbadger/redreader/common/PrefsUtility.java
+@@ -714,9 +714,7 @@ public final class PrefsUtility {
+ 	}
+ 
+ 	public static boolean pref_behaviour_useinternalbrowser() {
+-		return getBoolean(
+-				R.string.pref_behaviour_useinternalbrowser_key,
+-				true);
++		return false;
+ 	}
+ 
+ 	public static boolean pref_behaviour_usecustomtabs() {
+diff --git a/src/main/java/org/quantumbadger/redreader/reddit/url/SubredditPostListURL.java b/src/main/java/org/quantumbadger/redreader/reddit/url/SubredditPostListURL.java
+index ac83202..5f0a68f 100644
+--- a/src/main/java/org/quantumbadger/redreader/reddit/url/SubredditPostListURL.java
++++ b/src/main/java/org/quantumbadger/redreader/reddit/url/SubredditPostListURL.java
+@@ -125,7 +125,7 @@ public class SubredditPostListURL extends PostListingURL {
+ 		switch(type) {
+ 
+ 			case FRONTPAGE:
+-				builder.encodedPath("/");
++				builder.encodedPath("/r/ChromeOSFlex+GalliumOS+GooglePixel+LineageOS+chromeos+chrultrabook+cloudready+googlephotos+linuxhardware+thinkpad+zerotier");
+ 				break;
+ 
+ 			case ALL:

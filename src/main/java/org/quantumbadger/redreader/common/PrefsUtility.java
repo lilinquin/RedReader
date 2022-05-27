@@ -714,9 +714,7 @@ public final class PrefsUtility {
 	}
 
 	public static boolean pref_behaviour_useinternalbrowser() {
-		return getBoolean(
-				R.string.pref_behaviour_useinternalbrowser_key,
-				true);
+		return false;
 	}
 
 	public static boolean pref_behaviour_usecustomtabs() {
