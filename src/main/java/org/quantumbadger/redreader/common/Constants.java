@@ -66,19 +66,14 @@ public final class Constants {
 
 		static {
 			final String[] defaultSubredditStrings = {
-               "/r/DataHoarder",
                "/r/ChromeOSFlex",
                "/r/LineageOS",
                "/r/GooglePhotos",
                "/r/GooglePixel",
                "/r/chromeos",
-               "/r/linuxquestions",
-               "/r/cloudready",
                "/r/chrultrabook",
                "/r/linuxhardware",
-               "/r/thinkpad",
-               "/r/simpleliving",
-               "/r/dell"
+               "/r/simpleliving"
 			};
 
 			DEFAULT_SUBREDDITS = new CollectionStream<>(defaultSubredditStrings)

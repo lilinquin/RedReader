@@ -490,9 +490,7 @@ public final class PrefsUtility {
 	}
 
 	public static boolean pref_appearance_image_viewer_show_floating_toolbar() {
-		return getBoolean(
-				R.string.pref_appearance_image_viewer_show_floating_toolbar_key,
-				true);
+		return true;
 	}
 
 	public static boolean pref_appearance_show_aspect_ratio_indicator() {
@@ -502,9 +500,7 @@ public final class PrefsUtility {
 	}
 
 	public static boolean pref_appearance_comments_show_floating_toolbar() {
-		return getBoolean(
-				R.string.pref_appearance_comments_show_floating_toolbar_key,
-				true);
+		return false;
 	}
 
 	public static boolean pref_appearance_indentlines() {
@@ -742,9 +738,7 @@ public final class PrefsUtility {
 	}
 
 	public static boolean pref_behaviour_video_mute_default() {
-		return getBoolean(
-				R.string.pref_behaviour_video_mute_default_key,
-				true);
+		return false;
 	}
 
 	public static boolean pref_behaviour_video_zoom_default() {

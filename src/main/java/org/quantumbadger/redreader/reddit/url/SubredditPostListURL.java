@@ -125,7 +125,7 @@ public class SubredditPostListURL extends PostListingURL {
 		switch(type) {
 
 			case FRONTPAGE:
-				builder.encodedPath("/r/ChromeOSFlex+GalliumOS+GooglePixel+LineageOS+chromeos+chrultrabook+cloudready+googlephotos+linuxhardware+thinkpad+zerotier");
+				builder.encodedPath("/r/DataHoarder+ChromeOSFlex+GooglePixel+LineageOS+chromeos+chrultrabook+googlephotos+linuxhardware");
 				break;
 
 			case ALL:
